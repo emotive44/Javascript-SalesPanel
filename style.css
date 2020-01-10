@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "PT sans", sans-serif;
+    font-size: 24px;
+    color: #234465;
+}
+
+h1 {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+#navigation {
+    background: #234465;
+    display: inline-block;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+#lecture-name,
+#problem-name {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+#lecture-name {
+    font-size: 28px;
+    margin-bottom: 0.8rem;
+}
+
+#problem-name {
+    font-size: 22px;
+    color: white;
+}
+
+#exercise {
+    display: inline-block;
+    padding: 1rem 0 1rem 1rem;
+}
+
+#exercise p {
+    width: 55%;
+}
+
+#exercise button {
+    width: 20%;
+    background: #234465;
+    color: white;
+    border: none;
+    outline: none;
+    height: 5vh;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+textarea {
+    border: 1px solid grey;
+    background-color: #f7f5f5;
+    border-radius: 10px;
+    resize: none;
+    font-size: 20px;
+}
+
+textarea:disabled {
+    background-color: #dddddd;
+    resize: none;
+}
